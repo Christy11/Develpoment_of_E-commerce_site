@@ -15,14 +15,16 @@ li {
 }
 input, select, textarea {
     outline: none;
+    border: none;
+    background: none;
 }
 textarea {
     resize: none;
 }
 a {
     text-decoration: none;
+    color: #656565;
 }
-
 /* 清除浮动 */
 .clearfix:after {
     content: "";
@@ -31,4 +33,10 @@ a {
 }
 .clearfix {
     zoom: 1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
 }
